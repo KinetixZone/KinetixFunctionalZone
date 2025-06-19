@@ -9,32 +9,28 @@ const precios = [
     titulo: "Primer mes",
     precio: 249,
     color: "text-red-600",
-    bgLight: "bg-[#fff5f5]",
-    bgDark: "bg-red-950",
+    bg: "bg-[#fff5f5] dark:bg-red-950",
     descripcion: "Promoción única para nuevos ingresos. ¡Aprovecha y comienza ahora!",
   },
   {
     titulo: "Mensualidad",
     precio: 499,
     color: "text-blue-600",
-    bgLight: "bg-[#eaf0ff]",
-    bgDark: "bg-blue-950",
+    bg: "bg-[#eaf0ff] dark:bg-blue-950",
     descripcion: "Acceso completo durante todo el mes.",
   },
   {
     titulo: "Semana",
     precio: 150,
     color: "text-red-600",
-    bgLight: "bg-[#fff5f5]",
-    bgDark: "bg-red-950",
+    bg: "bg-[#fff5f5] dark:bg-red-950",
     descripcion: "Ideal para quienes desean entrenar unos días o están de visita.",
   },
   {
     titulo: "Visita",
     precio: 50,
     color: "text-blue-600",
-    bgLight: "bg-[#eaf0ff]",
-    bgDark: "bg-blue-950",
+    bg: "bg-[#eaf0ff] dark:bg-blue-950",
     descripcion: "Perfecto para entrenamientos únicos o sesiones de prueba.",
   },
 ];
@@ -43,7 +39,7 @@ export const SeccionPrecios = () => {
   return (
     <section
       id="precios"
-      className="py-18 px-4 bg-white dark:bg-black text-black dark:text-white transition-colors"
+      className="py-28 px-4 bg-white dark:bg-black text-black dark:text-white transition-colors"
     >
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
@@ -71,8 +67,7 @@ export const SeccionPrecios = () => {
                 className={cn(
                   "flex flex-col items-center justify-center p-8 rounded-3xl border hover:shadow-xl transition-all duration-300 ease-out hover:scale-[1.02]",
                   "border-zinc-200 dark:border-zinc-800",
-                  item.bgLight,
-                  `dark:${item.bgDark}`
+                  item.bg
                 )}
               >
                 <div className={`font-bold text-sm uppercase tracking-wide mb-2 ${item.color}`}>
