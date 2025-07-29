@@ -19,7 +19,7 @@ export const SeccionUbicacion = () => {
           className="rounded-2xl overflow-hidden shadow-2xl ring-1 ring-zinc-200 dark:ring-zinc-800"
         >
           <iframe
-            src="https://www.google.com/maps?q=19.4781804,-99.1590133&z=17&hl=es&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.023307898555!2d-99.0655446!3d19.497633000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf55e87ec9d%3A0x565f75f43bd707f9!2sCentro%20Cultural%20Comunitario%20%E2%80%9CLa%20Escuelita%E2%80%9D!5e0!3m2!1ses!2smx!4v1753757020222!5m2!1ses!2smx"
             width="100%"
             height="500"
             style={{ border: 0 }}
@@ -41,24 +41,21 @@ export const SeccionUbicacion = () => {
         >
           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
             Encuentra{" "}
-            <span className="text-[#4688ff] dark:text-red-500">Kinetix Functional Zone</span>
+            <span className="text-[#4688ff] dark:text-red-500">
+              Kinetix Functional Zone
+            </span>
           </h2>
 
           <p className="text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed">
-            Nuestro centro está ubicado estratégicamente en la{" "}
-            <strong className="text-black dark:text-white">Colonia Euzkadi</strong>, en un entorno seguro y accesible.
-            Vive el entrenamiento de élite con instalaciones diseñadas para desafiar tus límites.
+            Ahora nos encuentras en{" "}
+            <strong className="text-black dark:text-white">
+              Genovevo Rivas 3-81, San Felipe de Jesús Nte, Gustavo A. Madero, CDMX
+            </strong>
+            . Entrena en instalaciones diseñadas para desafiar tus límites.
           </p>
 
-          <ul className="text-base text-zinc-600 dark:text-zinc-400 space-y-2">
-            <li>🚇 A solo 5 minutos del <strong>Metro La Raza</strong></li>
-            <li>🛣 Conectado a vías rápidas: <strong>Insurgentes Norte</strong> y <strong>Circuito Interior</strong></li>
-            <li>🚶‍♂️ Acceso cómodo para peatones y ciclistas</li>
-            <li>🅿️ Estacionamiento disponible en la zona</li>
-          </ul>
-
           <motion.a
-            href="https://www.google.com/maps?q=19.4781804,-99.1590133&z=17&hl=es"
+            href="https://www.google.com/maps/place/Centro+Cultural+Comunitario+%E2%80%9CLa+Escuelita%E2%80%9D/@19.497633,-99.0655446,17z"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
