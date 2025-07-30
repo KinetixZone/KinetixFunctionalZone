@@ -70,7 +70,7 @@ export const SeccionFooter = () => {
           </a>
           <p className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400">
             <MdLocationOn className="text-blue-500" />
-            Calle 25 No. 368, Colonia Euzkadi, CDMX
+            Genovevo Rivas 3-81, San Felipe de Jesús Nte, Gustavo A. Madero, 07510 Ciudad de México, CDMX
           </p>
         </motion.div>
 

@@ -16,7 +16,7 @@ const servicios = [
   {
     icon: "📅",
     title: "Horarios accesibles",
-    text: "Lunes a viernes de 1 p.m. a 4 p.m., ideal para mantener una rutina constante.",
+    text: "Lunes a viernes de 11:00 a.m. a 5:00 p.m., ideal para mantener una rutina constante.",
   },
   {
     icon: "🧪",
