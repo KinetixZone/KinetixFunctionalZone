@@ -24,20 +24,18 @@ export default function KinetixHero() {
 
       {/* Contenido fijo */}
       <div className="relative z-20 text-center px-6 md:px-12 max-w-4xl flex flex-col items-center">
-     
-
-
-
-<img src="/LOGO_KINETIX_NUEVO.png" alt="Kinetix Logo" className="w-64 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-6"
+        <img
+          src="/LOGO_KINETIX_NUEVO.png"
+          alt="Kinetix Logo"
+          className="w-64 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-6"
         />
 
-        
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white">
           Bienvenido a <span className="text-red-500">Kinetix</span>{" "}
           <span className="text-[#4688ff] block">Functional Zone</span>
         </h1>
 
-        <p className="mt-2 text-lg md:text-xl text-white max-w-xl">
+        <p className="mt-4 text-lg md:text-xl text-white max-w-xl">
           Entrena en el lugar donde la <span className="font-bold">disciplina</span> se encuentra con la{" "}
           <span className="font-bold">fuerza</span>. Transforma tu cuerpo con entrenamiento funcional.
         </p>
