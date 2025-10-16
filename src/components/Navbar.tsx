@@ -11,7 +11,7 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
-import logo from "/LOGO_KINETIX_NUEVO.png";
+import logo from "/NAV-BAR-LOGO-KINETIX-P.png";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "./theme-provider";
 
