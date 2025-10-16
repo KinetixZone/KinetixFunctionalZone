@@ -25,7 +25,7 @@ export default function KinetixHero() {
       {/* Contenido fijo */}
       <div className="relative z-20 text-center px-6 md:px-12 max-w-4xl flex flex-col items-center">
         <img
-          src="/logo-kinetix-lobo.png"
+          src="/LOGO_KINETIX_NUEVO.png"
           alt="Kinetix Logo"
           className="w-64 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-6"
         />
