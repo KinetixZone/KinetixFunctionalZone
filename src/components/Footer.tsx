@@ -3,7 +3,7 @@
 import { FaInstagram, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { motion } from "framer-motion";
-import logo from "/LOGO_KINETIX_NUEVO.png";
+import logo from "/LOGO_COMPLETO_KINETIX_NUEVO.png";
 
 export const SeccionFooter = () => {
   return (
