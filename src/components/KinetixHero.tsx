@@ -24,12 +24,21 @@ export default function KinetixHero() {
 
       {/* Contenido fijo */}
       <div className="relative z-20 text-center px-6 md:px-12 max-w-4xl flex flex-col items-center">
-        <img
-          src="/LOGO_KINETIX_NUEVO.png"
-          alt="Kinetix Logo"
-          className="w-98 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-10"
-        />
+     
 
+
+
+
+<img src="/LOGO_KINETIX_NUEVO.png" alt="Kinetix Logo" className="w-80 sm:w-80 md:w-96 lg:w-[24rem] xl:w-[28rem] 2xl:w-[32rem] h-auto mb-6" />
+
+
+
+
+
+
+
+
+        
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white">
           Bienvenido a <span className="text-red-500">Kinetix</span>{" "}
           <span className="text-[#4688ff] block">Functional Zone</span>
