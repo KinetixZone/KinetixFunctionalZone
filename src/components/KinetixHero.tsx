@@ -27,7 +27,7 @@ export default function KinetixHero() {
         <img
           src="/LOGO_KINETIX_NUEVO.png"
           alt="Kinetix Logo"
-          className="w-80 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-6"
+          className="w-96 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-6"
         />
 
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white">
