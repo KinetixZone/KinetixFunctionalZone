@@ -61,7 +61,7 @@ export default function KinetixNavbar() {
         <NavBody>
           <NavbarLogo>
             <a href="#inicio" className="flex items-center gap-2">
-              <img src={logo} alt="Kinetix Logo" className="h-12 w-auto" />
+              <img src={logo} alt="Kinetix Logo" className="h-14 w-auto" />
               <span className="text-xl font-bold text-blue-500 dark:text-red-500">
                 KINETIX
               </span>
