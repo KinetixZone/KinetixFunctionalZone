@@ -27,10 +27,10 @@ export default function KinetixHero() {
         <img
           src="/LOGO_KINETIX_NUEVO.png"
           alt="Kinetix Logo"
-          className="w-64 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-6"
+          className="w-64 sm:w-72 md:w-80 lg:w-[22rem] xl:w-[26rem] 2xl:w-[30rem] h-auto mb-4"
         />
 
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white">
+        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-white">
           Bienvenido a <span className="text-red-500">Kinetix</span>{" "}
           <span className="text-[#4688ff] block">Functional Zone</span>
         </h1>
