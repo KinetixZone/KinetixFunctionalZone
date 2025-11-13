@@ -35,7 +35,7 @@ export default function KinetixHero() {
           <span className="text-[#4688ff] block">Functional Zone</span>
         </h1>
 
-        <p className="mt-4 text-lg md:text-xl text-white max-w-xl">
+        <p className="mt-2 text-lg md:text-xl text-white max-w-xl">
           Entrena en el lugar donde la <span className="font-bold">disciplina</span> se encuentra con la{" "}
           <span className="font-bold">fuerza</span>. Transforma tu cuerpo con entrenamiento funcional.
         </p>
